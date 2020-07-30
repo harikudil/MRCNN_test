@@ -1,5 +1,0 @@
-COnvert to TF
-python dataset_tools/create_coco_tf_record.py --logtostderr --train_image_dir=C:/Users/ITRI/Desktop/Harish/MRCNN_test/images/train --test_image_dir=C:/Users/ITRI/Desktop/Harish/MRCNN_test/images/test --train_annotations_file=C:/Users/ITRI/Desktop/Harish/MRCNN_test/images/train.json --test_annotations_file=C:/Users/ITRI/Desktop/Harish/MRCNN_test/images/test.json --output_dir=C:/Users/ITRI/Desktop/Harish/MRCNN_test/images
-
-Run train
-python model_main.py --logtostderr --model_dir=C:/Users/ITRI/Desktop/Harish/MRCNN_test/training/ --pipeline_config_path=C:/Users/ITRI/Desktop/Harish/MRCNN_test/training/mask_rcnn_inception_v2_coco.config
